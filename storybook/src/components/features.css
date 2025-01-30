@@ -7,6 +7,8 @@
     margin: auto;
     font-family:  sans-serif;
   }
+
+
   
   .features-title {
     font-size: 1.15rem;
@@ -28,7 +30,17 @@
     gap: 8px;
     font-size: 0.9rem;
     color: #555;
+    
   }
+
+  .feature-item:hover{
+    background-color: #eee8e8; /* Change this to your desired color */
+    cursor: pointer;
+    
+  
+  }
+
+
   
   .check-icon {
     color: #28a745; /* Green color */
