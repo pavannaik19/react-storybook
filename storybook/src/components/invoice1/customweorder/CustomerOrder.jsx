@@ -11,12 +11,19 @@ const CustomerOrder = () => {
 
       <div className="customer-info">
         <h2>Customer Information</h2>
-        <p><strong>Customer name:</strong> Emir Abiyyu</p>
-        <p><strong>Number of person:</strong> 12 Person Table <button>➖</button> <button>➕</button></p>
+        <div className="c1">
+        <div class="input-box">
+        <label>Customer name</label>
+        <input type="text" value="Emir Abiyyu" readonly></input>
+    </div>
+        </div>
+        <div className="c1">
+        <p><strong>Number of person:</strong> 12 Person Table <button>➖</button> <button>➕</button></p></div>
       </div>
 
       <div className="current-order">
         <h2>Current Order</h2>
+        <div className="order-scroll">
         <div className="order-item">
           <img src="gyoza.jpg" alt="Japanese Chicken Gyoza" />
           <p>Japanese Chicken Gyoza <br /><strong>Rp 81.700,00</strong></p>
@@ -32,6 +39,7 @@ const CustomerOrder = () => {
         <div className="order-item">
           <img src="krosang.jpg" alt="Krosang" />
           <p>Krosang Thats It</p>
+        </div>
         </div>
       </div>
 
