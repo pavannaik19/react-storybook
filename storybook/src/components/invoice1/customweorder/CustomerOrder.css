@@ -71,6 +71,7 @@
     overflow-y: auto; /* Enables vertical scrolling */
     padding-right: 10px;
     scroll-behavior: smooth;
+    
     /* scrollbar-width: thin; */
     /* scrollbar-color: #888 #f1f1f1; */
   }
@@ -99,6 +100,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
+    margin: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -121,4 +123,9 @@
   .order-button:hover {
     background-color: #333;
   }
-  
+
+  .order-back{
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+  }
+
