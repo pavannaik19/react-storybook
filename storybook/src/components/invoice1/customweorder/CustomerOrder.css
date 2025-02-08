@@ -67,7 +67,7 @@
     outline: none;
 }
   .order-scroll {
-    max-height: 200px; /* Limits height */
+    max-height: 300px; /* Limits height */
     overflow-y: auto; /* Enables vertical scrolling */
     padding-right: 10px;
     scroll-behavior: smooth;
