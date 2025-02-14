@@ -47,8 +47,8 @@ const CustomerOrder = () => {
 
       <div className="payment-summary">
         <h2>Payment Summary</h2>
-        <p><strong>Subtotal:</strong>
-         Rp 1.200.000,00</p>
+        <div className="ttl"></div>
+        <p><strong>Subtotal:</strong> Rp 1.200.000,00</p>
         <p><strong>Discount Sales:</strong> Rp 0,00</p>
         <p><strong>Tax:</strong> Rp 28.000,00</p>
         <hr />
