@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Minus, Plus, Trash2 } from 'lucide-react';
+import { Minus, Plus, Trash2 } from 'lucide-react';
 
 export const RightContent=()=>{
     const [cuscount,setcuscounnt]=useState(0);
@@ -82,14 +82,14 @@ export const RightContent=()=>{
                 className="quantity-btn"
                 onClick={() =>setcuscounnt(cuscount-1)}
               >
-                {/* <Minus size={16} /> */}
+                <Minus size={16} />
               </button>
               <span>{cuscount}</span>
               <button 
                 className="quantity-btn"
                 onClick={() => setcuscounnt(cuscount+1)}
               >
-                {/* <Plus size={16} /> */}
+                <Plus size={16} />
               </button>
             </div>
                 </div>
@@ -123,14 +123,14 @@ export const RightContent=()=>{
                 className="quantity-btn"
                 onClick={() => updateQuantity(item.id, false)}
               >
-                {/* <Minus size={16} /> */}
+                <Minus size={16} />
               </button>
               <span>{item.quantity}</span>
               <button 
                 className="quantity-btn"
                 onClick={() => updateQuantity(item.id, true)}
               >
-                {/* <Plus size={16} /> */}
+                <Plus size={16} />
               </button>
             </div>
             
@@ -138,7 +138,7 @@ export const RightContent=()=>{
               className="delete-btn"
               onClick={() => removeItem(item.id)}
             >
-              {/* <Trash2 size={20} /> */}
+              <Trash2 size={20} />
             </button>
             </div>
           </div>
