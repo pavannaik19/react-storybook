@@ -1,5 +1,5 @@
 import React from "react";
-import Homepage from "./home";
+import Homepage from "./acp";
 
 export default {
   title: "components/acp/home",
